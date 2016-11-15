@@ -76,6 +76,7 @@ gulp.task('release', function () {
 			'./**/.*',
 			"!./**/.gitignore",
 			"!./**/scss/**",
+			"!./**/sass/**",
 			"!./**/less/**",
 			"!./**/build.*",
 			"!./**/build/**",
